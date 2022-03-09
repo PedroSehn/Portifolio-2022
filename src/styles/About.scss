@@ -1,0 +1,36 @@
+@import '/src/styles/variables.scss';
+
+.about-content {
+    width: 80vp;
+    height: 40em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $pink;
+
+    .text {
+        padding: 1em;
+        background-color: $light-green;
+        height: 90%;
+        width: 50%;
+    }
+
+
+    .photo-container {
+        height: 60%;
+        padding: 0.5em;
+        margin-bottom: 11em;
+
+        div {
+            background-color: yellow;
+        }
+
+        .photo {
+            height: 20em;
+        }
+
+    }
+    
+}
+

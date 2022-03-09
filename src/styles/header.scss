@@ -1,0 +1,27 @@
+@import '/src/styles/variables.scss';
+
+.main-header {
+    background-color: $black;
+    display: flex;
+    padding: 0.6em;
+    justify-content: center;
+    width: 100vp;
+    margin-bottom: 0.5em;
+}
+
+.navigation {
+    display: flex;
+    .navigation-items {
+        font-size: 1.19em;
+        font-weight: 300;
+        color: $font-gray-medium;
+        margin-left: 3em;
+        margin-right: 3em;
+
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            transition: 0.5s;
+        }
+    }
+}
