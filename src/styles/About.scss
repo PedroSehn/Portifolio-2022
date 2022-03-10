@@ -1,36 +1,87 @@
 @import '/src/styles/variables.scss';
 
 .about-content {
-    width: 80vp;
-    height: 40em;
-    padding: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: $pink;
-
-    .text {
-        padding: 1em;
-        background-color: $light-green;
-        height: 90%;
-        width: 50%;
-    }
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 100vw;
+   height: 90vh;
 
     .photo-container {
-        height: 60%;
-        padding: 0.5em;
-        margin-bottom: 11em;
+        margin-top: 4em;
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 80vh;
+        background-color: $light-pink;
+        border-radius: 20px;
+        
+        .first-container {
+            background-color: $pink;
+            width: 30%;
+            text-align: center;
+            color: $white;
+            border-top-left-radius: 17px;
+            border-bottom-left-radius: 17px;
+            padding: 2em;
+            padding-top: 0 !important;
 
-        div {
-            background-color: yellow;
+            .title {
+                font-size: 6vh;
+            }
+
+            p {
+                font-size: 2.2vh;
+            }
+
+            .social {
+                display: flex;
+                justify-content: center;
+                margin-top: 4vh;
+
+                .socialButtons {
+                    margin: 1.5vh
+                }
+            }
         }
+        
+        .second-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 15vw;
 
         .photo {
-            height: 20em;
+            height: 40vh;
+            border: 3px solid $green;
+            border-radius: 50%;
         }
+
+        .name {
+            font-size: 3em;
+            font-weight: 400;
+            margin-bottom: -3px;
+        }
+
+        .description {
+            font-size: 1.2em;
+        }
+
+    }
 
     }
     
 }
 
+@media only screen and (min-width: 1920px){
+    .first-container {
+        p {
+            font-size: 1.2em;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+}

@@ -6,7 +6,6 @@
     padding: 0.6em;
     justify-content: center;
     width: 100vp;
-    margin-bottom: 0.5em;
 }
 
 .navigation {
@@ -23,5 +22,11 @@
             color: $white;
             transition: 0.5s;
         }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .main-header {
+        display: none;
     }
 }

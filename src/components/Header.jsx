@@ -6,7 +6,7 @@ function Header(){
             <nav className='navigation'> 
                 <div className='navigation-items'> Sobre </div>
                 <div className='navigation-items'> Projetos </div>
-                <div className='navigation-items'> Sobre </div>
+                <div className='navigation-items'> Tecnologias </div>
             </nav>
         </header>
     );
