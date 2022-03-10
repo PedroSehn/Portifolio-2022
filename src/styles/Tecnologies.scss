@@ -1,13 +1,36 @@
 @import '/src/styles/variables.scss';
 
 .tecnologies-content {
-    width: 80vw;
-    height: 80vh;
-
+    width: 90vw;
+    height: 85vh;
     border-radius: 20px;
-
     background-color: $font-gray-light;
-
-    margin-top: 4vh;
+    margin-top: 5vh;
     margin-bottom: 4vh;
+    display: flex;
+
+    .descripition {
+        box-sizing: border-box;
+        width: 30%;
+        height: 100%;
+        background-color: $font-gray-dark;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $white;
+        
+        span {
+            font-size:3vw;
+        }
+        
+
+    }
+
+    .tecnologies {
+        width: 70%;
+        height: 100%;
+    }
 }

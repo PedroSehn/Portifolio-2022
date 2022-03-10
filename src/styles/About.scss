@@ -11,40 +11,42 @@
     .photo-container {
         display: flex;
         justify-content: space-between;
-        width: 80vw;
-        height: 80vh;
+        width: 90vw;
+        height: 85vh;
         background-color: $light-pink;
         border-radius: 20px;
         
         .first-container {
             background-color: $pink;
             width: 30%;
+            max-width: 30%;
             text-align: center;
             color: $white;
             border-top-left-radius: 17px;
             border-bottom-left-radius: 17px;
             padding: 2em;
-            padding-top: 0 !important;
+            padding-top: 1em;
+            box-sizing: border-box;
 
             .title {
-                background-color: $red;
-                width: 24vw;
-                border-radius: 20px;
-               font-size:3vw;
-               margin-top: 1vw;
+                border-radius: 25px;
+                font-size:3vw;
+                margin-top: 1vw;
+                display: flex;
+                justify-content: center;
             }
 
             .text {
+                font-weight: bold;
                 text-overflow: clip;
                 box-sizing: border-box;
-                height: fit-content;
+                height: 90%;
                 max-height: 57vh;
                 overflow: hidden;
                 padding: 0.5vw;
-                
                 p {
                     text-overflow: ellipsis;
-                    font-size: 2.2vh;
+                    font-size: 2.5vh;
                 }
             }
             
@@ -53,16 +55,27 @@
                 justify-content: center;
                 margin-left: 2.3vw;
                 margin-right: 2.3vw;
+                
                 .socialButtons {
                     size: 2vh;
                     margin: 0 2vh;
                     width: 5vw;
                     border-radius: 50%;
+
+                    &:hover {
+                        box-shadow: 4px  4px 4px $red;
+                        transition: 0.3s;
+                    }
+
+                    &:not( :hover ) {
+                        transition: 0.2s;
+                    }
                 }
             }
         }
         
         .second-container {
+            box-sizing: border-box;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -70,8 +83,8 @@
             margin: 15vw;
 
             .photo {
-                height: 40vp;
-                width: 20vw;
+                height: 30vp;
+                width: 25vw;
                 border: 5px solid $green;
                 border-radius: 50%;
             }
