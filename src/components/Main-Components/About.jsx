@@ -11,7 +11,11 @@ function About() {
         <section className='about-content'>
                 <div className='photo-container' > 
                 <div className='first-container'>
-                    <p className='title'> Sobre </p>
+                    <div className='title'>
+                        <span> Sobre </span>
+                    </div>
+                    
+                    <div className='text'>
                     <p>
                         Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -25,11 +29,18 @@ function About() {
                         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>
-                    
+                    </div>
                     <div className='social'>
-                        <img src={GitHub} alt='GitHub' className='socialButtons'/>
-                        <img src={Instagram} alt='Instagram' className='socialButtons'/>
-                        <img src={Linkedin} alt='Linkedin' className='socialButtons'/>
+                        <a href='https://github.com/PedroSehn' target='_blank'>
+                            <img src={GitHub} alt='GitHub' className='socialButtons'/>
+                        </a>
+                        <a href='https://www.instagram.com/pedro.shu/' target='_blank'>
+                            <img src={Instagram} alt='Instagram' className='socialButtons'/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/pedrosehn/' target='_blank'>
+                            <img src={Linkedin} alt='Linkedin' className='socialButtons'/>
+                        </a>
+                        
                     </div>
                 </div>
                     <div className='second-container'>

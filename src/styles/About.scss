@@ -3,13 +3,12 @@
 .about-content {
    display: flex;
    flex-direction: column;
-   align-items: center;
    max-width: 100vw;
-   height: 90vh;
+   height: fit-content;
+   margin-top: 4vh;
+   margin-bottom: 5vh;
 
     .photo-container {
-        margin-top: 4em;
-        border: 2px solid black;
         display: flex;
         justify-content: space-between;
         width: 80vw;
@@ -28,48 +27,66 @@
             padding-top: 0 !important;
 
             .title {
-                font-size: 6vh;
+                background-color: $red;
+                width: 24vw;
+                border-radius: 20px;
+               font-size:3vw;
+               margin-top: 1vw;
             }
 
-            p {
-                font-size: 2.2vh;
+            .text {
+                text-overflow: clip;
+                box-sizing: border-box;
+                height: fit-content;
+                max-height: 57vh;
+                overflow: hidden;
+                padding: 0.5vw;
+                
+                p {
+                    text-overflow: ellipsis;
+                    font-size: 2.2vh;
+                }
             }
-
+            
             .social {
                 display: flex;
                 justify-content: center;
-                margin-top: 4vh;
-
+                margin-left: 2.3vw;
+                margin-right: 2.3vw;
                 .socialButtons {
-                    margin: 1.5vh
+                    size: 2vh;
+                    margin: 0 2vh;
+                    width: 5vw;
+                    border-radius: 50%;
                 }
             }
         }
         
-        .second-container{
+        .second-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             margin: 15vw;
 
-        .photo {
-            height: 40vh;
-            border: 3px solid $green;
-            border-radius: 50%;
-        }
+            .photo {
+                height: 40vp;
+                width: 20vw;
+                border: 5px solid $green;
+                border-radius: 50%;
+            }
 
-        .name {
-            font-size: 3em;
-            font-weight: 400;
-            margin-bottom: -3px;
-        }
+            .name {
+                font-size: 2.6vw;
+                font-weight: 400;
+                margin-bottom: -3px;
+            }
 
-        .description {
-            font-size: 1.2em;
-        }
+            .description {
+                font-size: 1.2em;
+            }
 
-    }
+        }
 
     }
     
@@ -81,7 +98,8 @@
             font-size: 1.2em;
         }
     }
+    
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 1440px){
 }
