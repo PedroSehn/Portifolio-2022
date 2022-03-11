@@ -13,24 +13,53 @@
         box-sizing: border-box;
         width: 30%;
         height: 100%;
+        border-top-left-radius: 17px;
+        border-bottom-left-radius: 17px;
         background-color: $font-gray-dark;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
         padding: 2em;
         display: flex;
         flex-direction: column;
         align-items: center;
         color: $white;
-        
-        span {
-            font-size:3vw;
-        }
-        
-
     }
 
     .tecnologies {
         width: 70%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1.5em;
+
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+
+        .principal-stack {
+            width: 90%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            box-sizing: border-box;
+            
+            
+        }
+
+        .secondary-stack {
+            width: 90%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+            box-sizing: border-box;
+            padding-bottom: 1.1em;
+        }
     }
 }

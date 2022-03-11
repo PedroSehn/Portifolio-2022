@@ -1,0 +1,40 @@
+@import '/src/styles/variables.scss';
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: $yellow;
+        width: 4.2vw;
+        height: 39%;
+        z-index: 3;
+        position: fixed;
+        margin-top: 23.9% ;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        align-items: center;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        
+        .social-icon {
+            width: 3vw;
+            height: 3vw;
+            border-radius: 50%;
+
+            &:hover {
+                width: 3.8vw;
+                height: 3.8vw;
+                transition: 0.4s;
+                background-color: $white;
+                opacity: 0.9;
+            }
+
+            &:not( :hover ) {
+                width: 3vw;
+                height: 3vw;
+                transition: 0.16s;
+            }
+        }
+    }
+
+

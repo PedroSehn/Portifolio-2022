@@ -38,37 +38,15 @@
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
         padding: 2em;
-
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        .title {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 25px;
-            margin-bottom: 30px;
-            span {
-                font-size:3vw;
-            }
-        }
-
-        .text {
-            box-sizing: border-box;
-            overflow: hidden;
-            padding: 0.5vw;
-            width: 90%;
-            height: 80%;
-            text-align: center;
-
-            p {
-                font-weight: bold;
-                text-overflow: ellipsis;
-                font-size: 2.5vh;
-            }
-        }
     }
 
+    p {
+        span {
+            background-color: white;
+        }
+    }
 
 }

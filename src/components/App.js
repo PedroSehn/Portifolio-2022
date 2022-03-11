@@ -1,12 +1,12 @@
 import '../styles/App.scss';
-import Header from './Header.jsx';
+import Social from './Social.jsx'
 import Main from './Main.jsx';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
+        <Social />
         <Main />
       </header>
     </div>
