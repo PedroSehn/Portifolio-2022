@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portifolio-2022/static/css/main.560edf94.css",
-    "main.js": "/Portifolio-2022/static/js/main.0e742b6a.js",
+    "main.js": "/Portifolio-2022/static/js/main.74842dc6.js",
     "static/js/787.be55e6d0.chunk.js": "/Portifolio-2022/static/js/787.be55e6d0.chunk.js",
     "static/media/pedrinho.png": "/Portifolio-2022/static/media/pedrinho.507065543ccb3cca1bd7.png",
     "static/media/mongodb-plain-wordmark.svg": "/Portifolio-2022/static/media/mongodb-plain-wordmark.b43ea7a6f1e97fab107aebd22205e345.svg",
@@ -36,11 +36,11 @@
     "static/media/database.svg": "/Portifolio-2022/static/media/database.37641b35c195bbad1e5d12706b456a79.svg",
     "static/media/game-icon.svg": "/Portifolio-2022/static/media/game-icon.3eb09e21fe831956fe54719b8b117eec.svg",
     "main.560edf94.css.map": "/Portifolio-2022/static/css/main.560edf94.css.map",
-    "main.0e742b6a.js.map": "/Portifolio-2022/static/js/main.0e742b6a.js.map",
+    "main.74842dc6.js.map": "/Portifolio-2022/static/js/main.74842dc6.js.map",
     "787.be55e6d0.chunk.js.map": "/Portifolio-2022/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.560edf94.css",
-    "static/js/main.0e742b6a.js"
+    "static/js/main.74842dc6.js"
   ]
 }
