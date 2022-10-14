@@ -6,7 +6,7 @@ import instagramClone from '../../assets/images/Instagram_clone.svg'
 import databaseIcon from '../../assets/images/database.svg';
 import baker from '../../assets/images/beaker.svg';
 import javaProj from '../../assets/images/java_proj.svg'
-import git from '../../assets/images/git-icon.svg';
+import pokemon from '../../assets/images/icons8-pokemon-go.svg';
 
 function Projects(){
     return(
@@ -35,8 +35,8 @@ function Projects(){
                     <a href='https://github.com/PedroSehn/Projeto-Signos-Java' target='_blank' rel="noreferrer">
                         <ProjectCard name='Java Signos' img={javaProj}/>
                     </a>
-                    <a href='https://github.com/PedroSehn' target='_blank' rel="noreferrer">
-                    <ProjectCard name='Outros Projetos' img={git}/>  
+                    <a href='https://pedrosehn.github.io/Pokedex/' target='_blank' rel="noreferrer">
+                    <ProjectCard name='Pokedex' img={pokemon}/>  
                     </a>
                     
                 </div> 
