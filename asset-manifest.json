@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portifolio-2022/static/css/main.560edf94.css",
-    "main.js": "/Portifolio-2022/static/js/main.74842dc6.js",
+    "main.css": "/Portifolio-2022/static/css/main.3a7b6a4e.css",
+    "main.js": "/Portifolio-2022/static/js/main.fe2badbf.js",
     "static/js/787.be55e6d0.chunk.js": "/Portifolio-2022/static/js/787.be55e6d0.chunk.js",
     "static/media/pedrinho.png": "/Portifolio-2022/static/media/pedrinho.507065543ccb3cca1bd7.png",
     "static/media/mongodb-plain-wordmark.svg": "/Portifolio-2022/static/media/mongodb-plain-wordmark.b43ea7a6f1e97fab107aebd22205e345.svg",
@@ -24,6 +24,7 @@
     "static/media/redux-original.svg": "/Portifolio-2022/static/media/redux-original.7fe607aacc31f6e6199e70f16aae407e.svg",
     "static/media/javascript-plain.svg": "/Portifolio-2022/static/media/javascript-plain.bacc3387f463f5b56f433827347c6155.svg",
     "static/media/sequelize-plain.svg": "/Portifolio-2022/static/media/sequelize-plain.45c8b2a7cd2b3f505729636b81f0b710.svg",
+    "static/media/icons8-pokemon-go.svg": "/Portifolio-2022/static/media/icons8-pokemon-go.c2d831d72e7fd6eb70aab2da7b17ee4e.svg",
     "static/media/linkedin-icon.svg": "/Portifolio-2022/static/media/linkedin-icon.60ee2b83905d6cf614a98c1478a22bf9.svg",
     "static/media/typescript-plain.svg": "/Portifolio-2022/static/media/typescript-plain.76fe4b0a77bb1549ec20379b6a6d81f5.svg",
     "static/media/git-plain.svg": "/Portifolio-2022/static/media/git-plain.45ffb8cc77681eed294253a776fe6c37.svg",
@@ -35,12 +36,12 @@
     "static/media/html5-plain.svg": "/Portifolio-2022/static/media/html5-plain.69274ea277b1ee86ba50abd24b291122.svg",
     "static/media/database.svg": "/Portifolio-2022/static/media/database.37641b35c195bbad1e5d12706b456a79.svg",
     "static/media/game-icon.svg": "/Portifolio-2022/static/media/game-icon.3eb09e21fe831956fe54719b8b117eec.svg",
-    "main.560edf94.css.map": "/Portifolio-2022/static/css/main.560edf94.css.map",
-    "main.74842dc6.js.map": "/Portifolio-2022/static/js/main.74842dc6.js.map",
+    "main.3a7b6a4e.css.map": "/Portifolio-2022/static/css/main.3a7b6a4e.css.map",
+    "main.fe2badbf.js.map": "/Portifolio-2022/static/js/main.fe2badbf.js.map",
     "787.be55e6d0.chunk.js.map": "/Portifolio-2022/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.560edf94.css",
-    "static/js/main.74842dc6.js"
+    "static/css/main.3a7b6a4e.css",
+    "static/js/main.fe2badbf.js"
   ]
 }
